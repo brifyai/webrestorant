@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hibana Yakitori · Fitzroy</title>
+  <meta name="description" content="Smoke, salt and skewers in Fitzroy. Yakitori, sake and a very old pot of tare on Gertrude Street." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Figtree:wght@400;600&family=DM+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<span id="top"></span>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" data-header>
+  <div class="header-bar">
+    <a href="#top" class="logo" aria-label="Hibana Yakitori — home">
+      <img src="https://cdn.jiro.build/hibana/all-svg/logo-flame.svg" alt="" class="logo-flame" />
+      <span class="logo-name">Hibana</span>
+      <span class="logo-sub">Yakitori · Fitzroy</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main">
+      <a href="#menu">Menu</a><a href="#tare">The tare</a><a href="#roots">Our roots</a><a href="#visit">Visit</a><a href="#press">Press</a>
+    </nav>
+    <div class="header-actions">
+      <a href="#menu" class="cart" aria-label="Cart">
+        <img src="https://cdn.jiro.build/hibana/all-svg/icon-bag.svg" alt="" />
+        <span data-cart-count>0</span>
+      </a>
+      <a href="#visit" class="btn btn-cream btn-sm desktop-only" data-label="Book a table"></a>
+      <button type="button" class="burger" aria-label="Open menu" aria-expanded="false" data-burger>
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-nav" data-mobile-nav>
+    <nav>
+      <a href="#menu">Menu</a><a href="#tare">The tare</a><a href="#roots">Our roots</a><a href="#visit">Visit</a><a href="#press">Press</a>
+      <div class="mobile-nav-cta"><a href="#visit" class="btn btn-cream btn-lg" data-label="Book a table"></a></div>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <h1 class="display-xl text-cream" data-split>Smoke, salt|and skewers|in Fitzroy</h1>
+      <p class="hero-tag" data-reveal>Since 2014… still fanning the coals by hand.</p>
+      <div class="btn-row" data-reveal>
+        <a href="#visit" class="btn btn-cream" data-label="Book a table"></a>
+        <a href="#menu" class="btn btn-maroon" data-label="See the menu"></a>
+      </div>
+    </div>
+    <div class="hero-media" data-reveal>
+      <div class="hero-photo" data-hero-photo>
+        <img src="https://cdn.jiro.build/hibana/all-images/hero-b.webp" alt="Glazed pork belly skewers fresh off the grill" />
+        <img src="https://cdn.jiro.build/hibana/all-images/hero-a.webp" alt="" class="hero-photo-alt" />
+      </div>
+      <div class="badge-wrap">
+        <div class="badge">
+          <img src="https://cdn.jiro.build/hibana/all-svg/icon-award.svg" alt="" />
+          <span class="label-sm">Voted best</span>
+          <span class="badge-big">Skewers</span>
+          <span class="label-sm">Fitzroy 2025</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE 1 ============ -->
+<section class="marquee marquee-white" data-marquee="Fresh off the coals|Tare bottled weekly|Walk-ins welcome|Late kitchen Fri &amp; Sat"></section>
+
+<!-- ============ TARE ============ -->
+<section id="tare" class="tare">
+  <div class="tare-visual" data-tilt-area>
+    <p class="tare-word tare-word-left" data-parallax="-1">Smoky</p>
+    <p class="tare-word tare-word-right" data-parallax="1">Sweet</p>
+    <div class="bottle-stage">
+      <div class="bottle" data-tilt>
+        <img src="https://cdn.jiro.build/hibana/all-images/tare-bottle.webp" alt="Hibana house tare, 250ml bottle" class="bottle-img" />
+        <div class="bottle-label">
+          <img src="https://cdn.jiro.build/hibana/all-svg/icon-flame.svg" alt="" />
+          <span class="bl-name">Hibana</span>
+          <span class="label-sm text-maroon">House tare · est. 2014</span>
+          <span class="bl-rule"></span>
+          <span class="bl-flavour">Sweet &amp; smoky</span>
+          <span class="label-sm text-maroon">250ml</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tare-copy">
+    <h2 class="display-lg text-red" data-split>The tare that|built Hibana</h2>
+    <p class="body-lg" data-reveal>We’ve topped up the same pot of soy, mirin and charred chicken bones since opening night. Now there’s finally enough to bottle — so your backyard grill can taste like our counter.</p>
+    <div class="btn-row align-center" data-reveal>
+      <button type="button" class="btn btn-red" data-label="Shop the tare" data-add="Hibana tare" data-qty="1"></button>
+      <p class="mono">$18 · ships Australia-wide</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRESS ============ -->
+<section id="press" class="press">
+  <p class="press-title" data-split>As featured in</p>
+  <div class="press-logos">
+    <span class="pl pl-anton-lg" data-reveal>The Long Table</span>
+    <span class="pl pl-sans" data-reveal>Broth Weekly</span>
+    <span class="pl pl-anton-sm" data-reveal>Night Plate</span>
+    <span class="pl pl-anton-lg" data-reveal>Salt/Ash</span>
+    <span class="pl pl-sans" data-reveal>Gourmand</span>
+    <span class="pl pl-anton-sm" data-reveal>Fitzroy Local</span>
+  </div>
+</section>
+
+<!-- ============ MENU ============ -->
+<section id="menu" class="menu">
+  <div class="container">
+    <div class="menu-head">
+      <h2 class="display-lg text-red" data-split>The skewer|list</h2>
+      <div class="menu-intro">
+        <p class="body-lg" data-reveal>Sold by the stick, two minimum. Order a few, then a few more — the grill runs until midnight on weekends.</p>
+        <div class="btn-row" data-reveal>
+          <button type="button" class="btn btn-maroon" data-label="See the full menu" data-open-menu></button>
+        </div>
+      </div>
+    </div>
+    <div class="menu-body">
+      <div class="menu-photo-wrap" data-reveal>
+        <div class="menu-photo">
+          <img src="https://cdn.jiro.build/hibana/all-images/menu.webp" alt="Chicken skewers glazed with tare" />
+          <span class="pill"><img src="https://cdn.jiro.build/hibana/all-svg/icon-flame.svg" alt="" />Hot off the coals</span>
+        </div>
+      </div>
+      <div class="menu-list" data-menu-list="grill"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Full menu dialog -->
+<div class="modal" role="dialog" aria-modal="true" aria-label="Full menu" data-modal>
+  <div class="modal-card">
+    <div class="modal-top">
+      <p class="modal-title">Full menu</p>
+      <button type="button" class="modal-close" aria-label="Close full menu" data-close-menu>✕</button>
+    </div>
+    <p class="modal-sub">Skewers are sold by the stick, two minimum. Tap a price to add two to your bag.</p>
+    <div data-full-menu></div>
+  </div>
+</div>
+
+<!-- ============ ROOTS ============ -->
+<section id="roots" class="roots">
+  <div class="container roots-grid">
+    <div class="roots-copy">
+      <p class="eyebrow" data-reveal>Our roots</p>
+      <h2 class="display-lg text-cream" data-split>Born at a|backyard grill</h2>
+      <p class="body-lg text-cream" data-reveal>Kenji and Mae started grilling skewers for neighbours on a borrowed hibachi in their Collingwood backyard. The queue got long, the council got curious, and in 2014 we moved the coals to Gertrude Street. Same tare, same tongs, bigger grill.</p>
+      <div class="stats">
+        <div class="stat" data-reveal><p class="stat-num" data-count="2014" data-from="1990">2014</p><p class="stat-label">first night on Gertrude St</p></div>
+        <div class="stat" data-reveal><p class="stat-num" data-count="40" data-suffix="k">40k</p><p class="stat-label">skewers grilled a month</p></div>
+        <div class="stat" data-reveal><p class="stat-num" data-count="1">1</p><p class="stat-label">pot of tare, never emptied</p></div>
+      </div>
+    </div>
+    <div class="polaroids" data-reveal>
+      <div class="polaroid-board" data-board>
+        <div class="polaroid" style="--x:10px;--y:11px;--r:-5deg;z-index:1" data-drag>
+          <div class="polaroid-img" style="width:300px;height:230px"><img src="https://cdn.jiro.build/hibana/all-images/roots-1.webp" alt="Friends grilling skewers at a backyard barbecue" draggable="false" /></div>
+          <p>Collingwood, 2011</p>
+        </div>
+        <div class="polaroid" style="--x:324px;--y:10px;--r:4deg;z-index:2" data-drag>
+          <div class="polaroid-img" style="width:260px;height:300px"><img src="https://cdn.jiro.build/hibana/all-images/roots-2.webp" alt="Mae turning skewers over the coals" draggable="false" /></div>
+          <p>Mae on the coals</p>
+        </div>
+        <div class="polaroid" style="--x:10px;--y:300px;--r:2deg;z-index:3" data-drag>
+          <div class="polaroid-img" style="width:300px;height:220px"><img src="https://cdn.jiro.build/hibana/all-images/roots-3.webp" alt="A paper bag of skewers handed over the counter" draggable="false" /></div>
+          <p>Skewers to go</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="reviews">
+  <div class="container center">
+    <h2 class="display-lg text-cream" data-split>Loud reviews,|full mouths</h2>
+    <p class="reviews-sub" data-reveal>4.9 stars from 2,400 regulars — and counting</p>
+  </div>
+  <div class="review-track" data-reviews>
+    <div class="review-slide"><figure class="review">
+      <div class="stars" data-stars></div>
+      <blockquote>“Best skewers this side of the river. The tare should honestly be illegal.”</blockquote>
+      <figcaption class="mono">Dani Okafor · Collingwood</figcaption>
+    </figure></div>
+    <div class="review-slide"><figure class="review">
+      <div class="stars" data-stars></div>
+      <blockquote>“We came for one round and stayed for six. The chicken hearts converted my dad.”</blockquote>
+      <figcaption class="mono">Lou Brennan · Northcote</figcaption>
+    </figure></div>
+    <div class="review-slide"><figure class="review">
+      <div class="stars" data-stars></div>
+      <blockquote>“Bought two bottles of tare on the way out. My backyard barbecue is ruined for anything else.”</blockquote>
+      <figcaption class="mono">Sam Whitfield · Brunswick</figcaption>
+    </figure></div>
+  </div>
+  <div class="dots" data-dots></div>
+</section>
+
+<!-- ============ MARQUEE 2 ============ -->
+<section class="marquee marquee-cream" data-marquee="Come hungry|Leave smoky|Bring a friend|Order more skewers" data-reverse></section>
+
+<!-- ============ VISIT ============ -->
+<section id="visit" class="visit">
+  <div class="visit-copy">
+    <h2 class="display-lg text-cream" data-split>Stop by|the grill</h2>
+    <p class="body-lg text-cream" data-reveal>No dress code, plenty of stools, and a grill that’s been lit since four. Walk-ins welcome at the bar — book ahead for groups.</p>
+    <div class="hours" data-hours>
+      <div class="hour-row" data-reveal data-days="2,3,4"><span class="hr-fill"></span><p class="hr-day">Tue – Thu</p><p class="hr-time">5pm – 11pm</p></div>
+      <div class="hour-row" data-reveal data-days="5,6"><span class="hr-fill"></span><p class="hr-day">Fri – Sat</p><p class="hr-time">5pm – midnight</p></div>
+      <div class="hour-row" data-reveal data-days="0"><span class="hr-fill"></span><p class="hr-day">Sunday</p><p class="hr-time">Noon – 9pm</p></div>
+      <div class="hour-row" data-reveal data-days="1"><span class="hr-fill"></span><p class="hr-day">Monday</p><p class="hr-time">Coals resting</p></div>
+    </div>
+    <a href="tel:+61394172014" class="address" data-reveal>
+      <img src="https://cdn.jiro.build/hibana/all-svg/icon-location.svg" alt="" />
+      <span class="ulink">212 Gertrude Street, Fitzroy · (03) 9417 2014</span>
+    </a>
+    <div class="btn-row" data-reveal>
+      <a href="tel:+61394172014" class="btn btn-cream" data-label="Book a table"></a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=212+Gertrude+Street+Fitzroy+VIC" class="btn btn-maroon" data-label="Get directions" target="_blank" rel="noopener"></a>
+    </div>
+  </div>
+  <div class="visit-photo">
+    <img src="https://cdn.jiro.build/hibana/all-images/stall.webp" alt="Regulars laughing at the Hibana counter" />
+    <span class="pill"><img src="https://cdn.jiro.build/hibana/all-svg/icon-flame.svg" alt="" />Open tonight from 5pm</span>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand" data-reveal>
+        <a href="#top" class="logo logo-footer" aria-label="Back to top">
+          <img src="https://cdn.jiro.build/hibana/all-svg/logo-flame.svg" alt="" class="logo-flame" />
+          <span class="logo-name">Hibana</span>
+          <span class="logo-sub">Yakitori · Fitzroy</span>
+        </a>
+        <p>Skewers, sake and a very old pot of tare on Gertrude Street.</p>
+      </div>
+      <div class="footer-cols" data-reveal>
+        <div class="fcol"><p>Eat</p><a href="#menu" class="ulink">Skewer list</a><a href="#menu" class="ulink">Drinks</a><a href="#visit" class="ulink">Book a table</a><a href="#" class="ulink">Gift cards</a></div>
+        <div class="fcol"><p>Shop</p><a href="#tare" class="ulink">The tare</a><a href="#" class="ulink">Merch</a><a href="#" class="ulink">Stockists</a></div>
+        <div class="fcol"><p>Hello</p><a href="#roots" class="ulink">Our roots</a><a href="#press" class="ulink">Press</a><a href="mailto:hello@hibana.com.au?subject=Jobs" class="ulink">Jobs</a><a href="tel:+61394172014" class="ulink">Contact</a></div>
+      </div>
+      <div class="newsletter" data-reveal>
+        <p class="nl-title">Get the weekly specials</p>
+        <form class="nl-form" novalidate data-newsletter>
+          <input type="email" placeholder="your@email.com" aria-label="Email address" required />
+          <button type="submit" class="btn btn-red btn-lg" data-label="Sign up"></button>
+        </form>
+        <p class="nl-msg" data-nl-msg aria-live="polite"></p>
+        <div class="socials">
+          <a href="https://www.instagram.com/" aria-label="Instagram"><img src="https://cdn.jiro.build/hibana/all-svg/icon-instagram.svg" alt="" /></a>
+          <a href="mailto:hello@hibana.com.au" aria-label="Email"><img src="https://cdn.jiro.build/hibana/all-svg/icon-email.svg" alt="" /></a>
+          <a href="tel:+61394172014" aria-label="Phone"><img src="https://cdn.jiro.build/hibana/all-svg/icon-phone.svg" alt="" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-legal mono">
+      <p>© 2026 Hibana Yakitori Pty Ltd</p>
+      <a href="#">Privacy · Terms</a>
+      <p>Grilled in Fitzroy since 2014</p>
+    </div>
+    <div class="giant" aria-label="Hibana" data-giant>Hibana</div>
+  </div>
+</footer>
+
+<div class="toast" data-toast aria-live="polite"></div>
+<script src="main.js"></script>
+</body>
+</html>
